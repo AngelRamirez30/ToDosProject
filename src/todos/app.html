@@ -1,0 +1,40 @@
+<section class="todoapp">
+  <header class="header">
+    <h1>To-dos</h1>
+    <input
+      id="new-todo-input"
+      class="new-todo"
+      placeholder="¿Qué necesita ser hecho?"
+      autofocus
+    />
+  </header>
+  <section class="main">
+    <input id="toggle-all" class="toggle-all" type="checkbox" />
+    <label for="toggle-all">Mark all as complete</label>
+    <ul class="todo-list"></ul>
+  </section>
+
+  <footer class="footer">
+    <span class="todo-count"
+      ><strong id="pending-count">0</strong> pending(s)</span
+    >
+    <ul class="filters">
+      <li>
+        <a class="filtro" href="#/">All</a>
+      </li>
+      <li>
+        <a class="filtro" href="#/active">Pending</a>
+      </li>
+      <li>
+        <a class="filtro" href="#/completed">Completed</a>
+      </li>
+    </ul>
+    <button class="clear-completed">Delete completed</button>
+  </footer>
+</section>
+
+<footer class="info">
+  <p>Template creado por <a href="http://sindresorhus.com">Sindre Sorhus</a></p>
+  <p>Creado por <a href="http://todomvc.com">ti</a></p>
+  <p>Parte de <a href="http://todomvc.com">TodoMVC</a></p>
+</footer>
